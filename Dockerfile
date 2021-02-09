@@ -1,15 +1,15 @@
 FROM       node:alpine 
 
-MAINTAINER https://github.com/anders94/blockchain-demo
+LABEL MAINTAINER=https://github.com/vjambulingam/tamil-blockchain-demo
 
 EXPOSE     3000
 
-WORKDIR    /blockchain-demo 
+WORKDIR    /tamil-blockchain-demo 
 
-COPY       package.json /blockchain-demo
+COPY       package.json /tamil-blockchain-demo
 
 RUN        npm install
 
-COPY       . /blockchain-demo 
+COPY       . /tamil-blockchain-demo 
 
 CMD        ["bin/www"]

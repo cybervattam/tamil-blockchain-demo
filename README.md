@@ -1,27 +1,25 @@
-# Blockchain Demo
-A web-based demonstration of blockchain concepts.
+# கட்டச்சங்கிலி வெள்ளோட்டம்
+கட்டச்சங்கிலி கருத்துருவை இணைய வழியில் விளக்கும் வெள்ளோட்டம். 
 
-[![Blockchain 101 - Demo](https://img.youtube.com/vi/_160oMzblY8/0.jpg)](https://www.youtube.com/watch?v=_160oMzblY8)
+எளிதில் புரிந்துகொள்ளக் கூடிய வகையில், காட்சி வடிவில் கட்டச்சங்கிலி கருத்துருவை விளக்குகிறது. 
+இந்த வெள்ளோட்டத்தில் மறுக்க இயலாத பேரேடு கருத்துருவும் அறிமுகம் செய்யப்படுகிறது. 
 
-This is a very basic visual introduction to the concepts behind a blockchain. We introduce 
-the idea of an immutable ledger using an interactive web demo that is available here:
+இதன் ஆங்கில வடிவம், https://andersbrownworth.com/blockchain/ என்ற முகவரியில் கிடைக்கிறது.
 
-http://anders.com/blockchain/
-
-## Setup
-Get the code:
+## அமைவு வழிகாட்டி
+வெள்ளோட்டத்தின் மூலக்கூற்றை பதிவிறக்கம் செய்யவும்:
 
 ```
-git clone https://github.com/anders94/blockchain-demo.git
+git clone https://github.com/vjambulingam/tamil-blockchain-demo.git
 ```
 
-Install dependencies:
+சார்புகளை நிறுவவும்:
 
 ```
-cd blockchain-demo
+cd tamil-blockchain-demo
 npm install
 ```
-Run the server:
+சேவையை துவக்கவும்:
 
 ```
 npm start
@@ -32,39 +30,39 @@ OR
 ```
 ./bin/www
 ```
-#For windows: if the above command didn't work, use this (make sure you have Node.js installed in your system):
+#விண்டோஸ்க்கு: மேற்கூறிய கட்டளை வேலை செய்யாவிடில், இந்த கட்டளையை இயக்கவும் (இதற்கு முன்னர், உங்கள் கணினியில் Node.js நிறுவப்பட்டுள்ளதா என்பதை உறுதி செய்யவும் ):
 ```
 node ./bin/www      
 ```
 
-Point a web browser at the demo:
+வெள்ளோட்டத்தைக் காண, உங்கள் உலாவியில் கிழ்காணும் முகவரிக்கு செல்லவும்:
 
 ```
 http://localhost:3000
 ```
 
-## Setup using Docker
+## Docker அமைவு வழிகாட்டி
 
-Get the code:
-
-```
-git clone https://github.com/anders94/blockchain-demo.git
-```
-
-Run the Docker setup:
+வெள்ளோட்டத்தின் மூலக்கூற்றை பதிவிறக்கம் செய்யவும்:
 
 ```
-cd blockchain-demo
+git clone https://github.com/vjambulingam/tamil-blockchain-demo.git
+```
+
+Docker அமைவு வழிகாட்டியை இயக்கவும்:
+
+```
+cd tamil-blockchain-demo
 docker-compose up -d
 ```
 
-Point a web browser at the demo:
+வெள்ளோட்டத்தைக் காண, உங்கள் உலாவியில் கிழ்காணும் முகவரிக்கு செல்லவும்:
 
 ```
 http://localhost:3000
 ```
 
-## Optional Configuration
+## விருப்ப உள்ளமைவு
 You can adjust the "number of zeros" required by the demo by editing the first two lines of
 `public/javascripts/blockchain.js`.
 
@@ -97,13 +95,6 @@ In the production bitcoin blockchain, block `458,091` has the hash digest
 `00000000000000000000011246f099d94f91628d71c9d75ad2f9a06e2beb7e92`. That's 21 zeros in a row!
 That one block would take this software approximately 8,454,989,768,407,765 years to mine.
 
-### Public Private Key Demo
+### பொதுத்திறவி தனித்திறவி வெள்ளோட்டம்
 
-The 2nd part of the 101 session:
-* https://github.com/anders94/public-private-key-demo
-
-## Send Thanks
-
-![](public/images/qr.png)
-
-Bitcoin gratefully accepted: `1K3NvcuZzVTueHW1qhkG2Cm3viRkh2EXJp`
+* https://github.com/vjambulingam/tamil-public-private-key-demo

@@ -3,16 +3,16 @@ extends layout
 block content
   .container-fluid
     h1 #{__('Tokens')}
-    - var peers = {1: 'A', 2: 'B', 3: 'C'}
+    - var peers = {1: '1', 2: '2', 3: '3'}
       each peer, chain in peers
         h3 #{__('Peer')} #{peer}
         .row.row-horizon
           - var blocks = []
-          - blocks.push({block: 1, chain: chain, nonce: 139358, txs: [{value: '25.00', from: 'Darcy', to: 'Bingley'},{value: '4.27', from: 'Elizabeth', to: 'Jane'},{value: '19.22', from: 'Wickham', to: 'Lydia'},{value: '106.44', from: 'Lady Catherine de Bourgh', to: 'Collins'},{value: '6.42', from: 'Charlotte', to: 'Elizabeth'}], previous: '0000000000000000000000000000000000000000000000000000000000000000'})
-          - blocks.push({block: 2, chain: chain, nonce: 39207, txs: [{value: '97.67', from: 'Ripley', to: 'Lambert'},{value: '48.61', from: 'Kane', to: 'Ash'},{value: '6.15', from: 'Parker', to: 'Dallas'},{value: '10.44', from: 'Hicks', to: 'Newt'},{value: '88.32', from: 'Bishop', to: 'Burke'},{value: '45.00', from: 'Hudson', to: 'Gorman'},{value: '92.00', from: 'Vasquez', to: 'Apone'}], previous: '00000c52990ee86de55ec4b9b32beefd745d71675dc0eddfbc7b88336e2e296b'})
-          - blocks.push({block: 3, chain: chain, nonce: 13804, txs: [{value: '10.00', from: 'Emily', to: 'Jackson'},{value: '5.00', from: 'Madison', to: 'Jackson'},{value: '20.00', from: 'Lucas', to: 'Grace'}], previous: '000078be183417844c14a9251ca246fb15df1074019873f5d85c1a6f4311d4e0'})
-          - blocks.push({block: 4, chain: chain, nonce: 20688, txs: [{value: '62.19', from: 'Rick', to: 'Ilsa'},{value: '867.96', from: 'Captain Louis Renault', to: 'Strasser'},{value: '276.15', from: 'Victor Laszlo', to: 'Ilsa'},{value: '97.13', from: 'Rick', to: 'Sam'},{value: '119.63', from: 'Captain Louis Renault', to: 'Jan Brandel'}], previous: '0000c2c95f54a49b4f2bee7056a7dc3b7c1a408706c848b520e20eac75aaceb0'})
-          - blocks.push({block: 5, chain: chain, nonce: 33083, txs: [{value: '14.12', from: 'Denise Lovett', to: 'Edmund Lovett'},{value: '2,760.29', from: 'Lord Glendenning', to: 'John Moray'},{value: '413.78', from: 'Katherine Glendenning', to: 'Miss Audrey'}], previous: '0000c03019ed59586405750968888fb65256e82492480d9fe0a6bd2f5e86b5ca'})
+          - blocks.push({block: 1, chain: chain, nonce: 15408, txs: [{value: '25.00', from: 'சுமதி', to: 'கோகிலா'},{value: '4.27', from: 'ரம்யா', to: 'முகிலன்'},{value: '19.22', from: 'சேகர்', to: 'பானுமதி'},{value: '106.44', from: 'வேதா', to: 'முகிலன்'},{value: '6.42', from: 'சேகர்', to: 'ரம்யா'}], previous: '0000000000000000000000000000000000000000000000000000000000000000'})
+          - blocks.push({block: 2, chain: chain, nonce: 41138, txs: [{value: '97.67', from: 'எழிலன்', to: 'ஜம்புலிங்கம்'},{value: '48.61', from: 'கவிதா', to: 'கோகிலா'},{value: '6.15', from: 'முகிலன்', to: 'ஜம்புலிங்கம்'},{value: '10.44', from: 'பிரனேஷ்', to: 'வேதா'},{value: '88.32', from: 'பிரனேஷ்', to: 'மாலதி'},{value: '45.00', from: 'பிரபாலட்சுமி', to: 'மாலதி'},{value: '92.00', from: 'பிரபாலட்சுமி', to: 'பிரனேஷ்'}], previous: '0000d45d203fdc355ffe3163f11ca2bf12f209e931e7a5a723a13d0a81aa9703'})
+          - blocks.push({block: 3, chain: chain, nonce: 42929, txs: [{value: '10.00', from: 'ரம்யா', to: 'சேகர்'},{value: '5.00', from: 'எழிலன்', to: 'சேகர்'},{value: '20.00', from: 'முகிலன்', to: 'கவிதா'}], previous: '00007b019b8ef89cc604190e094d8dd9454a9187d5af3e3519ec4d808f9b79f2'})
+          - blocks.push({block: 4, chain: chain, nonce: 51418, txs: [{value: '62.19', from: 'எழிலன்', to: 'கவிதா'},{value: '867.96', from: 'இராமசாமி', to: 'முகிலன்'},{value: '276.15', from: 'செந்தில்குமார்', to: 'வேதா'},{value: '97.13', from: 'பிரனேஷ்', to: 'ஜம்புலிங்கம்'},{value: '119.63', from: 'இராமசாமி', to: 'மாலதி'}], previous: '0000e5ccf2d056bb45325a44ba2a154b09b39eaca4659ab0b8297e869f976c40'})
+          - blocks.push({block: 5, chain: chain, nonce: 20961, txs: [{value: '14.12', from: 'முகிலன்', to: 'எழிலன்'},{value: '2,760.29', from: 'ஜம்புலிங்கம்', to: 'கோகிலா'},{value: '413.78', from: 'கோகிலா', to: 'வேதா'}], previous: '00003dc9c8406cfa65d28c71fbdecabe6fb37fa6245e8964f3c7e5a1731de8e9'})
           each block in blocks
             .col-xs-7
               include includes/tokenblock
