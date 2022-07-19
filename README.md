@@ -97,4 +97,4 @@ That one block would take this software approximately 8,454,989,768,407,765 year
 
 ### பொதுத்திறவி தனித்திறவி வெள்ளோட்டம்
 
-* https://github.com/vjambulingam/tamil-public-private-key-demo
+* https://github.com/cybervattam/tamil-public-private-key-demo
