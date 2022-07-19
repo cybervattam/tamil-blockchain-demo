@@ -10,7 +10,7 @@
 வெள்ளோட்டத்தின் மூலக்கூற்றை பதிவிறக்கம் செய்யவும்:
 
 ```
-git clone https://github.com/vjambulingam/tamil-blockchain-demo.git
+git clone https://github.com/cybervattam/tamil-blockchain-demo.git
 ```
 
 சார்புகளை நிறுவவும்:
